@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: cyan;
+    padding: 0;
+}
+
+.portfolio {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.portfolio h1 {
+    color: #333;
+}
+
+.portfolio ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.portfolio ul li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.portfolio ul li:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
